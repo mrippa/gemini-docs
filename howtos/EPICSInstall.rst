@@ -4,13 +4,13 @@ Installing EPICS Base on the ADE
 EPICS Installation
 ~~~~~~~~~~~~~~~~~~
 
-Install EPICS R3.14.12.8 (alternatively, `Install EPICS R3.15.x <Install_EPICS_R3.15.x>`__ or `Install EPICS R7.x <Install_EPICS_R7.x>`__ and ignore the rest of these instructions)
+Install EPICS R3.15.8 (alternatively, `Install EPICS R3.15.x <Install_EPICS_R3.15.x>`__ or `Install EPICS R7.x <Install_EPICS_R7.x>`__ and ignore the rest of these instructions)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ::
 
-   mkdir -p /gem_base/epics/R3.14.12.8
-   cd /gem_base/epics/R3.14.12.8
+   mkdir -p /gem_base/epics/R3.15.8
+   cd /gem_base/epics/R3.15.8
    git clone https://github.com/gemini-rtsw/epics-base.git
    cd epics-base
    git remote add upstream https://github.com/epics-base/epics-base
@@ -64,8 +64,8 @@ Install Gemini Specific changes to EPICS BASE
 
 ::
 
-   chmod +w /gem_base/epics/R3.14.12.8/base/templates/makeBaseApp/top/configure/*
-   export GEM_EPICS_RELEASE=R3.14.12.8
+   chmod +w /gem_base/epics/R3.15.8/base/templates/makeBaseApp/top/configure/*
+   export GEM_EPICS_RELEASE=R3.15.8
    cd /gem_base/ade/Gemini-ADE-1.5/makeGemApp
    make
 
@@ -80,7 +80,7 @@ Install MSI
 
 ::
 
-   cd /gem_base/epics/R3.14.12.8/extensions/src
+   cd /gem_base/epics/R3.15.8/extensions/src
    svn co http://sbfsvn02/gemini-sw/gem/vendor/support/msi/1-7 msi
    cd msi
    make
