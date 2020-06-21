@@ -56,7 +56,7 @@ Hosting
 Apart from `dockerhub <https://hub.docker.com/_/centos>`_, the ready built images can be hosted on an own socalled `registry <https://docs.docker.com/registry/>`_. In Gemini's context, this could ensure a well-defined build environment which could be used locally to develop with ADE and to deploy RPMs, for example, after building a local image derived from the base image provided via that registry. Like :code:`centos:7` in the given example, a self-created image could be used as base for various images with specific tasks in Gemini's development environment. Those images, of course, could also be hosted in that registry.
 
 Usage
-=====
+-----
 The docker image is now known by your docker platform and can be used. One example is of course, to use it to build a IOC module with the ADE installed in this docker image, with the sources not residing in the docker image, but on your host file system. With the following command, the gcal ioc modules was built with its code at :code:`$PWD/gcal` mounted into the docker image at startup time and hence shared between host and guest OS:
 ::
   
