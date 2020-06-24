@@ -50,8 +50,8 @@ This creates a file :code:`authors.txt` in the current directory and should be e
 
 ::
 
-  fkraemer = Felix Kraemer <fkraemer@gemini.edu>
-  mrippa = Mathew Rippa <mrippa@gemini.edu>
+  jdoe = John Doe <jdoe@example.com>
+  jeod = John Eod <jeod@example.com>
 
 Find First Commit
 ^^^^^^^^^^^^^^^^^
@@ -68,15 +68,15 @@ The end of the output for this example looks like this:
   
   [...]
   ------------------------------------------------------------------------
-  r5448 | fkraemer | 2020-04-17 23:52:44 +0200 (Fri, 17 Apr 2020) | 1 line
+  r5448 | jdoe | 2020-04-17 23:52:44 +0200 (Fri, 17 Apr 2020) | 1 line
   
   initial commit, not compilable, yet
   ------------------------------------------------------------------------
-  r5447 | fkraemer | 2020-04-17 23:48:17 +0200 (Fri, 17 Apr 2020) | 1 line
+  r5447 | jeod | 2020-04-17 23:48:17 +0200 (Fri, 17 Apr 2020) | 1 line
   
   gpol/mk: changed contact and set svn:ignore
   ------------------------------------------------------------------------
-  r5446 | fkraemer | 2020-04-17 23:48:02 +0200 (Fri, 17 Apr 2020) | 1 line
+  r5446 | jdoe | 2020-04-17 23:48:02 +0200 (Fri, 17 Apr 2020) | 1 line
   
   Initial structure of new gpol/mk
   ------------------------------------------------------------------------
